@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CalculoAmortizacao</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    </body>
+    
+    <h1  style="font-family:sans-serif ; color: tomato; border-style: groove";> Projeto Calculo Amortizacao</h1>
+    
+    <p style= "font-family: sans-serif; color: dimgray; font-size: 25px; ">Este projeto visa o calculo de amortizações pelas tabelas: Sac, Price e Sistema Americano de Amortização.</p> 
+     
+    <h2 style="font-family:sans-serif ; color: tomato;"> Elaborado pelos alunos:</h2>
+    <ul>
+        <li style= "font-family: sans-serif; color: dimgray; font-size: 20px; ">Afonso Santos</li>
+        <li style= "font-family: sans-serif; color: dimgray; font-size: 20px; ">Cassiano Lucas</li>
+        <li style= "font-family: sans-serif; color: dimgray; font-size: 20px; ">Debora Silva </li>
+    </ul>
+        <form action =" calculo"  method =" POST">
+           
+                         
+            <h3 style= "font-family: sans-serif; color: dimgray; font-size: 20px; "> Total do emprestimo (reais) </h3>
+                              <input type =" text" size =" 15" name = " total"> 
+                              <h3 style= "font-family: sans-serif; color: dimgray; font-size: 20px; ">  Quantidade de parcelas(meses) </h3>
+                              <input type=" text" size =" 3" name =" tempo"> 
+                        <h3 style= "font-family: sans-serif; color: dimgray; font-size: 20px; "> Escolha a tabela </h3>
+                         
+                           <div class="tab">
+                                <button class="tablinks" onclick="openCity(event, 'SAC')">SAC</button>
+                                <button class="tablinks" onclick="openCity(event, 'PRICE')">PRICE</button>
+                                <button class="tablinks" onclick="openCity(event, 'TABELA AMERICANA')">TABELA AMERICANA</button>
+                           </div>
+                                  
+                                
+            </form>
+       
+    </body>
+</html>
